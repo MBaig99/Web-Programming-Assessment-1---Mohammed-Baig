@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Digital Fest</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+   <!--This part is where the header section starts (AKA H1)-->
+    <header>
+	 <h1>Digi Fest</h1>
+	</header>
+	
+   <!--This is where i start the Navigation Bar section-->
+    <nav>
+	 <a href="#welcome">Welcome</a>
+	 <a href="#lineup">Line up</a>
+	 <a href="#contact">Contact us</a>
+	</nav>
+	
+   <!--Here is where the main content will be including the welcome section-->
+    <main>
+	 <section id="welcome">
+	  <h2>Welcome</h2>
+	  <p>Digi Fest is a celebration of digital and technology in the city of Abu Dhabi, This year we will be celebrating "collaboration". So come and find out what collaborations will be happening throughout the city!</p>
+	  </section>
+	  
+   <!--This part is where the Line up(events) section is and it will display the 2 events that are happening also with the image which was given to us-->
+	 <section id="lineup" class="line-up">
+	  <h2>Line Up</h2>
+	  <p>Check out these upcoming events happening this year in Abu Dhabi!</p>
+	  <div class="lineup-images">
+	   <img src="DigiFest.jpg" alt="Digifest 1">
+	   <img src="digifest2.jpg" alt="Digifest 2">
+	  </div>
+	 </section>
+	</main>
+	   
+   <!--This part is about my footer-->
+    <footer>
+	 <p>&copy; 2025 Digi Fest. All rights reserved</p>
+	</footer>
+  </body>
+  </html>
