@@ -1,0 +1,37 @@
+ <style>
+   body {
+     background-image: url('./hi.jpg');  /* My background image */
+     background-size: cover;  
+     background-position: center;  
+     background-attachment: fixed;  /* Keep background fixed while scrolling */
+     color: white;  /* Set text color for better contrast */
+     font-family: Arial, sans-serif;
+     text-align: center;  /* Center content */
+     margin: 0;
+     padding: 0;
+}
+	   
+	 .soundboard {
+	             display: grid;
+				 grid-template-columns: repeat(4,1fr); /*This part is called grid template column, it helped me arrange all the sounds in a table like matter */
+				 gap: 15px;
+				 max-width: 600px;
+				 margin: 50px auto;
+				 }
+				 
+	button { /*This part of the styling is for the buttons that are clickable when going through the sound effects*/
+	       background-color: #444;
+		   color: white;
+		   border: none;
+		   padding: 15px;
+		   font-size: 16px;
+		   cursor:pointer;
+		   transition: 0.3s;
+		   }
+		   
+	button:hover {
+	          background-color: #ff9800;
+			  color:black;
+			  }
+			  
+ </style>
