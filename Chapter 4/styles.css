@@ -1,0 +1,59 @@
+/*This is my body styling*/
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+/* This is my header styling */
+header {
+    background-color: #17072b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+/* This is my navigation bar styling */
+nav {
+    background-color: #172d67;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* This is styling for the main content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* This is styling for the Line Up Section */
+.line-up {
+    margin-top: 20px;
+}
+
+.line-up img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+/* This is the Footer */
+footer {
+    background-color: #8c15e9;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
