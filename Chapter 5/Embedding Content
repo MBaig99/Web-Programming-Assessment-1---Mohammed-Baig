@@ -1,0 +1,27 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Embedding Content</title>
+ <style> <!--This part is where i style the video to be centered and with a background color-->
+   
+   body {
+        display:flex;
+		justify-content:center;
+		align-items:center;
+		height:100vh;
+		margin:0;
+		background-color: navy;
+		
+	}
+	
+ </style>
+</head> 
+<!--This part of the coding is where i add the video along with a poster, i also looped it as required-->
+<body>
+ <video controls loop poster="ftsc.png" width ="600">
+  <source src="welcome to ftsc.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+ </video>
+ 
+</body>
+</html>
