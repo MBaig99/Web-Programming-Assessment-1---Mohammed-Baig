@@ -1,0 +1,49 @@
+/* This is where the styling of my petrol cost website */
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: navy;
+	color:white;
+	margin-top: 50px;
+}
+
+/*Styling for the input sections*/
+ 
+ input {
+	 padding: 5px;
+	 font-size: 16px;
+	 border: 2px solid white;
+	 background: #444;
+	 color:white;
+	 outline: none;
+}
+ 
+ /*This changes the border color when input is being typed*/
+ input:focus {
+	 border-color: yellow;
+}
+ 
+ /* This part is where I style the calculate button*/
+ 
+ button {
+	  padding: 10px 20px;
+	  font-size: 18px;
+	  border: none;
+	  background-color: orange;
+	  color: black;
+	  cursor: pointer;
+	  transition: 0.3s;
+}
+ 
+ /*This part is just for the effects when user hovers the mouse over the button*/
+ 
+ button:hover {
+	 background-color: yellow;
+	 color:black;
+ }
+ 
+ p {
+	 font-size: 20px;
+	 font-weight: bold;
+	 margin-top: 10px;
+ }
