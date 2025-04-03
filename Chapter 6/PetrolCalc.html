@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+  <title>Petrol Cost Calculator</title>
+  <link rel="stylesheet" href="petrol.css">
+</head>
+
+<body>
+  <!--This is the main heading-->
+  <h2>Petrol Cost Calculator by Baig </h2>
+  
+  <!--This is where the user inputs the petrol cost per liter -->
+  <label for="price"> Cost Per Liter ($):</label>
+  <input type="number" id="price" value="1.72"><br><br>
+  
+  <!--This is where the user inputs the number of liters he wants to -->
+  <label for="liters"> Liters Purchased :</label>
+  <input type="number" id="liters" value="0"><br><br>
+  
+  <!--I add a button for interactivity which also calculates the total cost -->
+  <button onclick="calculateTotal()">Calculate</button>
+  
+  <!--This P tag will display the total cost -->
+  <p id="total"> Total Cost: $0.00</p>
+  
+  <!--This is just to link my JavaScript file to this HTML file-->
+  <script src="petroljs.js"></script>
+  
+ </body>
+ </html>
